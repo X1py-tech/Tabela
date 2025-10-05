@@ -1,0 +1,106 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 245, 245, 1);
+}
+
+img {
+    width: 385px;
+    height: 126px;
+}
+
+table {
+    margin: 0 auto;
+    background-color: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+th {
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.fis {
+    background-color: rgba(255, 218, 185, 0.8);
+    color: #001;
+}
+
+.port {
+    background-color: rgba(255, 182, 193, 0.8);
+    color: #002;
+}
+
+.mat {
+    background-color: rgba(173, 216, 230, 0.8);
+    color: #000;
+}
+
+.ai {
+    background-color: rgba(230, 230, 250, 0.8);
+    color: #004;
+}
+
+.ef {
+    background-color: lightcoral;
+    color: #005;
+}
+
+.legenda-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.legenda {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    column-gap: 20px;
+}
+
+.legenda li {
+    margin: 10px 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.legenda li::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.fis1::before {
+    background-color: rgba(255, 218, 185, 0.8);
+}
+
+.port1::before {
+    background-color: rgba(255, 182, 193, 0.8);
+}
+
+.ai1::before {
+    background-color: rgba(230, 230, 250, 0.8);
+}
+
+.ef1::before {
+    background-color: lightcoral;
+}
+
+.mat1::before {
+    background-color: rgba(173, 216, 230, 0.8);
+}
+
+.p {
+    text-align: left;
+}
